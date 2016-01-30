@@ -15,12 +15,12 @@ Variable                          | Description
 ----------------------------------|--------------------
 subject                           |Identifier for the volunteer (values 1-30)
 activity                          |Performed activity (values laying, sitting, standing, walking, walking downstairs, walking upstairs)
-avg.time.bodyacc.mean.x           |
-avg.time.bodyacc.mean.y           |
-avg.time.bodyacc.mean.z           |
-avg.time.bodyacc.std.x            |
-avg.time.bodyacc.std.y            |
-avg.time.bodyacc.std.z            |
+avg.time.bodyacc.mean.x           |Average of time.bodyacc.mean.x variable for each subject/activity combination
+avg.time.bodyacc.mean.y           |Average of time.bodyacc.mean.y variable for each subject/activity combination
+avg.time.bodyacc.mean.z           |Average of time.bodyacc.mean.z variable for each subject/activity combination
+avg.time.bodyacc.std.x            |Average of time.bodyacc.std.x variable for each subject/activity combination
+avg.time.bodyacc.std.y            |Average of time.bodyacc.std.y variable for each subject/activity combination
+avg.time.bodyacc.std.z            |Average of time.bodyacc.std.z variable for each subject/activity combination
 avg.time.gravityacc.mean.x        |
 avg.time.gravityacc.mean.y        |
 avg.time.gravityacc.mean.z        |
