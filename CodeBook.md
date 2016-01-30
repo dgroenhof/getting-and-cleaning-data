@@ -24,12 +24,12 @@ avg.time.bodyacc.std.z            |Average of *time.bodyacc.std.z* variable for 
 avg.time.gravityacc.mean.x        |Average of *time.gravityacc.mean.x* variable for each *subject/activity* combination
 avg.time.gravityacc.mean.y        |Average of *time.gravityacc.mean.y* variable for each *subject/activity* combination
 avg.time.gravityacc.mean.z        |Average of *time.gravityacc.mean.z* variable for each *subject/activity* combination
-avg.time.gravityacc.std.x         |
-avg.time.gravityacc.std.y         |
-avg.time.gravityacc.std.z         |
-avg.time.bodyaccjerk.mean.x       |
-avg.time.bodyaccjerk.mean.y       |
-avg.time.bodyaccjerk.mean.z       |
+avg.time.gravityacc.std.x         |Average of *time.gravityacc.std.x* variable for each *subject/activity* combination
+avg.time.gravityacc.std.y         |Average of *time.gravityacc.std.y* variable for each *subject/activity* combination
+avg.time.gravityacc.std.z         |Average of *time.gravityacc.std.z* variable for each *subject/activity* combination
+avg.time.bodyaccjerk.mean.x       |Average of *time.bodyaccjerk.mean.x* variable for each *subject/activity* combination
+avg.time.bodyaccjerk.mean.y       |Average of *time.bodyaccjerk.mean.y* variable for each *subject/activity* combination
+avg.time.bodyaccjerk.mean.z       |Average of *time.bodyaccjerk.mean.z* variable for each *subject/activity* combination
 avg.time.bodyaccjerk.std.x        |
 avg.time.bodyaccjerk.std.y        |
 avg.time.bodyaccjerk.std.z        |
