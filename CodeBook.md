@@ -1,16 +1,16 @@
 ## Codebook
-#### Getting and Cleaning Data Course Project
+### Getting and Cleaning Data Course Project
 
 
 GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 
 A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
 
-#### Source data
+### Source data
 The source of the data used in this Course Project is the "Human Activity Recognition Using Smartphones Data Set" found in the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). The dataset can be downloaded using this [link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 
-#### Variables
+### Variables
 Variable                          | Description
 ----------------------------------|--------------------
 subject                           |Identifier for the volunteer (values 1-30)
@@ -67,20 +67,20 @@ avg.freq.bodyaccjerk.mean.z       |Average of *freq.bodyaccjerk.mean.z* variable
 avg.freq.bodyaccjerk.std.x        |Average of *freq.bodyaccjerk.std.x* variable for each *subject/activity* combination
 avg.freq.bodyaccjerk.std.y        |Average of *freq.bodyaccjerk.std.y* variable for each *subject/activity* combination
 avg.freq.bodyaccjerk.std.z        |Average of *freq.bodyaccjerk.std.z* variable for each *subject/activity* combination
-avg.freq.bodygyro.mean.x          |
-avg.freq.bodygyro.mean.y          |
-avg.freq.bodygyro.mean.z          |
-avg.freq.bodygyro.std.x           |
-avg.freq.bodygyro.std.y           |
-avg.freq.bodygyro.std.z           |
-avg.freq.bodyaccmag.mean          |
-avg.freq.bodyaccmag.std           |
-avg.freq.bodybodyaccjerkmag.mean  |
-avg.freq.bodybodyaccjerkmag.std   |
-avg.freq.bodybodygyromag.mean     |
-avg.freq.bodybodygyromag.std      |
-avg.freq.bodybodygyrojerkmag.mean |
-avg.freq.bodybodygyrojerkmag.std  |
+avg.freq.bodygyro.mean.x          |Average of *freq.bodygyro.mean.x* variable for each *subject/activity* combination
+avg.freq.bodygyro.mean.y          |Average of *freq.bodygyro.mean.y* variable for each *subject/activity* combination
+avg.freq.bodygyro.mean.z          |Average of *freq.bodygyro.mean.z* variable for each *subject/activity* combination
+avg.freq.bodygyro.std.x           |Average of *freq.bodygyro.std.x* variable for each *subject/activity* combination
+avg.freq.bodygyro.std.y           |Average of *freq.bodygyro.std.y* variable for each *subject/activity* combination
+avg.freq.bodygyro.std.z           |Average of *freq.bodygyro.std.z* variable for each *subject/activity* combination
+avg.freq.bodyaccmag.mean          |Average of *freq.bodyaccmag.mean* variable for each *subject/activity* combination
+avg.freq.bodyaccmag.std           |Average of *freq.bodyaccmag.std* variable for each *subject/activity* combination
+avg.freq.bodybodyaccjerkmag.mean  |Average of *freq.bodybodyaccjerkmag.mean* variable for each *subject/activity* combination
+avg.freq.bodybodyaccjerkmag.std   |Average of *freq.bodybodyaccjerkmag.std* variable for each *subject/activity* combination
+avg.freq.bodybodygyromag.mean     |Average of *freq.bodybodygyromag.mean* variable for each *subject/activity* combination
+avg.freq.bodybodygyromag.std      |Average of *freq.bodybodygyromag.std* variable for each *subject/activity* combination
+avg.freq.bodybodygyrojerkmag.mean |Average of *freq.bodybodygyrojerkmag.mean* variable for each *subject/activity* combination
+avg.freq.bodybodygyrojerkmag.std  |Average of *freq.bodybodygyrojerkmag.std* variable for each *subject/activity* combination
 
 
 
