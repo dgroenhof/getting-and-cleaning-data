@@ -30,25 +30,25 @@ avg.time.gravityacc.std.z         |Average of *time.gravityacc.std.z* variable f
 avg.time.bodyaccjerk.mean.x       |Average of *time.bodyaccjerk.mean.x* variable for each *subject/activity* combination
 avg.time.bodyaccjerk.mean.y       |Average of *time.bodyaccjerk.mean.y* variable for each *subject/activity* combination
 avg.time.bodyaccjerk.mean.z       |Average of *time.bodyaccjerk.mean.z* variable for each *subject/activity* combination
-avg.time.bodyaccjerk.std.x        |
-avg.time.bodyaccjerk.std.y        |
-avg.time.bodyaccjerk.std.z        |
-avg.time.bodygyro.mean.x          |
-avg.time.bodygyro.mean.y          |
-avg.time.bodygyro.mean.z          |
-avg.time.bodygyro.std.x           |
-avg.time.bodygyro.std.y           |
-avg.time.bodygyro.std.z           |
-avg.time.bodygyrojerk.mean.x      |
-avg.time.bodygyrojerk.mean.y      |
-avg.time.bodygyrojerk.mean.z      |
-avg.time.bodygyrojerk.std.x       |
-avg.time.bodygyrojerk.std.y       |
-avg.time.bodygyrojerk.std.z       |
-avg.time.bodyaccmag.mean          |
-avg.time.bodyaccmag.std           |
-avg.time.gravityaccmag.mean       |
-avg.time.gravityaccmag.std        |
+avg.time.bodyaccjerk.std.x        |Average of *time.bodyaccjerk.std.x* variable for each *subject/activity* combination
+avg.time.bodyaccjerk.std.y        |Average of *time.bodyaccjerk.std.y* variable for each *subject/activity* combination
+avg.time.bodyaccjerk.std.z        |Average of *time.bodyaccjerk.std.z* variable for each *subject/activity* combination
+avg.time.bodygyro.mean.x          |Average of *time.bodygyro.mean.x* variable for each *subject/activity* combination
+avg.time.bodygyro.mean.y          |Average of *time.bodygyro.mean.y* variable for each *subject/activity* combination
+avg.time.bodygyro.mean.z          |Average of *time.bodygyro.mean.z* variable for each *subject/activity* combination
+avg.time.bodygyro.std.x           |Average of *time.bodygyro.std.x* variable for each *subject/activity* combination
+avg.time.bodygyro.std.y           |Average of *time.bodygyro.std.y* variable for each *subject/activity* combination
+avg.time.bodygyro.std.z           |Average of *time.bodygyro.std.z* variable for each *subject/activity* combination
+avg.time.bodygyrojerk.mean.x      |Average of *time.bodygyrojerk.mean.x* variable for each *subject/activity* combination
+avg.time.bodygyrojerk.mean.y      |Average of *time.bodygyrojerk.mean.y* variable for each *subject/activity* combination
+avg.time.bodygyrojerk.mean.z      |Average of *time.bodygyrojerk.mean.z* variable for each *subject/activity* combination
+avg.time.bodygyrojerk.std.x       |Average of *time.bodygyrojerk.std.x* variable for each *subject/activity* combination
+avg.time.bodygyrojerk.std.y       |Average of *time.bodygyrojerk.std.y* variable for each *subject/activity* combination
+avg.time.bodygyrojerk.std.z       |Average of *time.bodygyrojerk.std.z* variable for each *subject/activity* combination
+avg.time.bodyaccmag.mean          |Average of *time.bodyaccmag.mean* variable for each *subject/activity* combination
+avg.time.bodyaccmag.std           |Average of *time.bodyaccmag.std* variable for each *subject/activity* combination
+avg.time.gravityaccmag.mean       |Average of *time.gravityaccmag.mean* variable for each *subject/activity* combination
+avg.time.gravityaccmag.std        |Average of *time.gravityaccmag.std* variable for each *subject/activity* combination
 avg.time.bodyaccjerkmag.mean      |
 avg.time.bodyaccjerkmag.std       |
 avg.time.bodygyromag.mean         |
