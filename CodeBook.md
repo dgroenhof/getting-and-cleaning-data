@@ -11,6 +11,8 @@ The source of the data used in this Course Project is the "Human Activity Recogn
 
 
 ### Variables
+The 
+
 Variable                          | Description
 ----------------------------------|--------------------
 subject                           |Identifier for the volunteer (values 1-30)
@@ -82,6 +84,9 @@ avg.freq.bodybodygyromag.std      |Average of *freq.bodybodygyromag.std* variabl
 avg.freq.bodybodygyrojerkmag.mean |Average of *freq.bodybodygyrojerkmag.mean* variable for each *subject/activity* combination
 avg.freq.bodybodygyrojerkmag.std  |Average of *freq.bodybodygyrojerkmag.std* variable for each *subject/activity* combination
 
+#####Notes
+* The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
+* The gyroscope units are rad/seg.
 
 
 ```{r}
