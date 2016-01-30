@@ -1,6 +1,10 @@
 ## Codebook
 ### Getting and Cleaning Data Course Project
 
+## TODO
+* Explain why I didn't choose the meanfreq columns in my dataset
+* Provide links to additional information
+* Describe steps taken in the run_analysis.R file
 
 GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
 
