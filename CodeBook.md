@@ -10,8 +10,8 @@ A code book that describes the variables, the data, and any transformations or w
 The source of the data used in this Course Project is the "Human Activity Recognition Using Smartphones Data Set" found in the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). The dataset can be downloaded using this [link](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 
-### Variables
-The 
+### Variables in the Dataset
+
 
 Variable                          | Description
 ----------------------------------|--------------------
