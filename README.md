@@ -10,4 +10,9 @@ This repository contains the following content:
 * `README.md` - This file
 * `avg_dataset.txt` - The output file of the `run_analysis.R` script, containing "independent tidy data set with the average of each variable for each activity and each subject"
 * `run_analysis.R` - R script that downloads, cleans, summarizes the source data and outputs the tidy dataset
+* `source\README.txt` - This is the README.txt file from the source data, describing the original experiment and the datafiles contained in the experiment
+* `source\features_info.txt` - This file is also a file from the source data, explaining the features that were collected in the experiment.
+* `source\UCI_HAR_Dataset.zip` - This zip file contains the complete original dataset
+
+
 
