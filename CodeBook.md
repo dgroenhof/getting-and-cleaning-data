@@ -89,14 +89,19 @@ avg.freq.bodybodygyrojerkmag.std  |Average of *freq.bodybodygyrojerkmag.std* var
 * This dataset contains only the "mean" and "standard deviation" measurements from the original dataset, containing `mean()` or `std()` in the original variable names.
 * More information on the original dataset, can be found in the [README.txt](https://github.com/dgroenhof/getting-and-cleaning-data/blob/master/source/README.txt) of the original dataset.
 
+
+### Sample Output
 ```{r}
-> head(avg.dataset.tbl, n=3L)
-Source: local data frame [3 x 68]
+> head(avg.dataset.tbl, n=6L)
+Source: local data frame [6 x 68]
 Groups: subject [1]
 
-  subject activity avg.time.bodyacc.mean.x avg.time.bodyacc.mean.y avg.time.bodyacc.mean.z
-    (int)    (chr)                   (dbl)                   (dbl)                   (dbl)
-1       1   laying               0.2215982            -0.040513953              -0.1132036
-2       1  sitting               0.2612376            -0.001308288              -0.1045442
-3       1 standing               0.2789176            -0.016137590              -0.1106018
+  subject           activity avg.time.bodyacc.mean.x avg.time.bodyacc.mean.y avg.time.bodyacc.mean.z
+    (int)              (chr)                   (dbl)                   (dbl)                   (dbl)
+1       1             laying               0.2215982            -0.040513953              -0.1132036
+2       1            sitting               0.2612376            -0.001308288              -0.1045442
+3       1           standing               0.2789176            -0.016137590              -0.1106018
+4       1            walking               0.2773308            -0.017383819              -0.1111481
+5       1 walking downstairs               0.2891883            -0.009918505              -0.1075662
+6       1   walking upstairs               0.2554617            -0.023953149              -0.0973020
 ```
