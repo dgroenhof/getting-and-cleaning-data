@@ -1,15 +1,6 @@
 ## Codebook
 ### Getting and Cleaning Data Course Project
 
-## TODO
-* Point to source data and explanation of source variables (source README.txt)
-* Explain why I didn't choose the meanfreq columns in my dataset
-* Provide links to additional information
-* Describe steps taken in the run_analysis.R file
-* Create README.md
-
-GitHub contains a code book that modifies and updates the available codebooks with the data to indicate all the variables and summaries calculated, along with units, and any other relevant information.
-
 A code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
 
 ### Source data
@@ -17,7 +8,7 @@ The source of the data used in this Course Project is the "Human Activity Recogn
 
 
 ### Variables in the Dataset
-
+All variables in the dataset are based on the "Human Activity Recognition Using Smartphones Data Set" and are described in the [features_info.txt](https://github.com/dgroenhof/getting-and-cleaning-data/blob/master/source/features_info.txt) file of the original experiment. All variables in this dataset are averages of the original measurements, grouped by the `subject` and `activity` values, using the `mean`-function in R. 
 
 Variable                          | Description
 ----------------------------------|--------------------
@@ -90,12 +81,24 @@ avg.freq.bodybodygyromag.std      |Average of *freq.bodybodygyromag.std* variabl
 avg.freq.bodybodygyrojerkmag.mean |Average of *freq.bodybodygyrojerkmag.mean* variable for each *subject/activity* combination
 avg.freq.bodybodygyrojerkmag.std  |Average of *freq.bodybodygyrojerkmag.std* variable for each *subject/activity* combination
 
-#####Notes
+#####Units
 * The units used for the accelerations (total and body) are 'g's (gravity of earth -> 9.80665 m/seg2).
 * The gyroscope units are rad/seg.
 
+### Notes
+* This dataset contains only the "mean" and "standard deviation" measurements from the original dataset, containing `mean()` or `std()` in the original variable names.
+* More information on the original dataset, can be found in the [README.txt](https://github.com/dgroenhof/getting-and-cleaning-data/blob/master/source/README.txt) of the original dataset.
 
-```{r}
-summary(cars)
-```
+
+`
+> head(avg.dataset.tbl, n=3L)
+Source: local data frame [3 x 68]
+Groups: subject [1]
+
+  subject activity avg.time.bodyacc.mean.x avg.time.bodyacc.mean.y avg.time.bodyacc.mean.z
+    (int)    (chr)                   (dbl)                   (dbl)                   (dbl)
+1       1   laying               0.2215982            -0.040513953              -0.1132036
+2       1  sitting               0.2612376            -0.001308288              -0.1045442
+3       1 standing               0.2789176            -0.016137590              -0.1106018
+`
 
