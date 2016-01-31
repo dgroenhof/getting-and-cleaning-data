@@ -28,7 +28,7 @@ The R script included in this repository, `run_analysis.R`, works as follows:
 * It groups the dataset by the `subject` and `activity` variable (using `group_by` from the `dplyr` package).
 * It creates averages on all appropriate columns in the grouped dataset (using the `summarise_each` from the `dplyr` package).
 * It then changes the labels from the appropriate columns by adding an `avg.` prefix, to indicate they contain average values.
-* It then writes this final dataset (called `avg.dataset.tbl`) to a text file called `avg_dataset.txt`.
+* It then writes this final dataset (called `avg.dataset.tbl`) to a text file called `avg_dataset.txt` in the `data` directory of your repository.
 * It then removes data no longer needed from memory.
 
 For more information, please check the comments in the `run_analysis.R` source code.
