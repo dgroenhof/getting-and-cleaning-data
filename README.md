@@ -40,4 +40,4 @@ For more information, please check the comments in the `run_analysis.R` source c
 4. Execute the R script by using the following command: `source("./run_analysis.R")`. 
 
 ### Contributors
-Dick Groenhof - Wrote the initial version.
+[Dick Groenhof](http://www.thenextview.nl/dick-groenhof) - Wrote the initial version.
