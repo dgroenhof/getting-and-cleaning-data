@@ -14,6 +14,19 @@ This repository contains the following files:
 * `source\features_info.txt` - This file is also a file from the source data, explaining the features that were collected in the experiment.
 * `source\UCI_HAR_Dataset.zip` - This zip file contains the complete original dataset
 
+### How the R script works
+The R script included in this repository, `run_analysis.R`, works as follows:
+* It first loads the `dplyr` package, used later in the script.
+* It sets a number of support variables (e.g. the URL where the source data is downloaded and the working directories used).
+* It checks if the data directory exists. If not, it will create the directory and then uses it.
+* It downloads the source zip file and unzips it into the data directory.
+* It loads the test and training dataset and their labels into memory.
+* It adds the appropriate labels to the datasets.
+* It merges the test and training datasets together.
+* It makes a subset of the data, selecting only the `subject` and `activity` columns and all columns containing the text `mean()` or `std()`.
+* It removes data no longer needed from memory.
+* 
+
 ### How to run the R script
 1. Fork this repository from Github to your local repository.
 2. Open R Studio.
