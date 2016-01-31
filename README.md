@@ -23,9 +23,17 @@ The R script included in this repository, `run_analysis.R`, works as follows:
 * It loads the test and training dataset and their labels into memory.
 * It adds the appropriate labels to the datasets.
 * It merges the test and training datasets together.
-* It makes a subset of the data, selecting only the `subject` and `activity` columns and all columns containing the text `mean()` or `std()`.
+* It makes a subset of the dataset, selecting only the `subject` and `activity` columns and all columns containing the text `mean()` or `std()`.
 * It removes data no longer needed from memory.
-* 
+* It cleans up the labels and fieldnames according to [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml). The variables starting with `t` are changed to a `time.` prefix and the variables starting with `f` are changed to a `freq.` prefix.
+* It creates a new dataset from the existing dataset and puts it in a data frame table.
+* It groups the dataset by the `subject` and `activity` variable (using `group_by` from the `dplyr` package).
+* It creates averages on all appropriate columns in the grouped dataset (using the `summarise_each` from the `dplyr` package).
+* It then changes the labels from the appropriate columns by adding an `avg.` prefix, to indicate they contain average values.
+* It then writes this final dataset (called `avg.dataset.tbl`) to a text file called `avg_dataset.txt`.
+* It then removes data no longer needed from memory.
+
+For more information, please check the comments in the `run_analysis.R` source code.
 
 ### How to run the R script
 1. Fork this repository from Github to your local repository.
