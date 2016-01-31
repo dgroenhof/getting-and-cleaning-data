@@ -20,4 +20,4 @@ This repository contains the following files:
 3. Change your working directory to where you forked the repository in step 1. using the `setwd()` command.
 4. Execute the R script by using the following command: `source("./run_analysis.R")`. 
 
-
+![](images/dir.png)
